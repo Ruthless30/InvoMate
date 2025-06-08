@@ -72,7 +72,7 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 When the application is run for the first time on Windows, it will automatically generate:
 
 📁 Database file:
-C:\Users\YourUser\AppData\Roaming\
+C:\Users\YourUser\AppData\Roaming\YourDB.db
 
 ⚙️ Configuration file:
 C:\Users\YourUser\AppData\Roaming\Project\config.properties
