@@ -39,15 +39,33 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 
 ## 📸 Screenshots
 
-> _Coming soon…_
+## 🖼️ Invoice Preview
+
+![Invoice Example](images/invoice-preview.png "Invoice Example")
 
 ---
 
 ## 📂 Getting Started
 
 ### Build & Run
+📌 First-Time Configuration (Windows)
+When the application is run for the first time on Windows, it will automatically generate:
+
+📁 Database file:
+C:\Users\YourUser\AppData\Roaming\
+
+⚙️ Configuration file:
+C:\Users\YourUser\AppData\Roaming\Project\config.properties
+
+These files store your company name, phone number, and local client/product data.
+
+🛠️ Customization & Migration
+To change your company name or phone number, edit the config.properties file.
+
+To move your data to another computer, copy both the database file and the config file to the same paths on the new machine.
+
 ```bash
 git clone https://github.com/Ruthless30/InvoMate.git
-cd invoicepro
+cd InvoMate
 mvn clean package
-java -jar target/invoicepro.jar
+java -jar target/InvoMate.jar
