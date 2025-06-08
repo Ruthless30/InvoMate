@@ -1,6 +1,6 @@
-# 🧾 InvoicePro – Smart Invoicing & Planning for Small Businesses
+# 🧾 InvoMate – Smart Invoicing & Planning for Small Businesses
 
-**InvoicePro** is a desktop Java application that helps small business owners (like bakery shops, local producers, or delivery-based services) easily manage their clients, products, and invoices — with additional support for product planning reports.
+**InvoMate** is a desktop Java application that helps small business owners (like bakery shops, local producers, or delivery-based services) easily manage their clients, products, and invoices — with additional support for product planning reports.
 
 ---
 
@@ -11,7 +11,7 @@
 - Track **delivery time** and **client debt** (amount owed).
 
 ### 📦 Product Management
-- Add, edit, and delete products with their **names** and **prices**.
+- Add, edit, and delete products.
 
 ### 🧾 Invoice Handling
 - Create, modify, and delete invoices.
@@ -31,9 +31,8 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 ## 🖥️ Tech Stack
 
 - **Language:** Java
-- **GUI:** Java Swing / JavaFX
+- **GUI:** Java Swing
 - **Database:** SQLite (embedded)
-- **PDF Generation:** iText or similar
 - **Build Tool:** Maven
 
 ---
@@ -46,13 +45,9 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 
 ## 📂 Getting Started
 
-### Prerequisites
-- Java 17 or later
-- Maven
-
 ### Build & Run
 ```bash
-git clone https://github.com/Ruthless30/invoicepro.git
+git clone https://github.com/Ruthless30/InvoMate.git
 cd invoicepro
 mvn clean package
 java -jar target/invoicepro.jar
