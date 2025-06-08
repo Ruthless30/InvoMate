@@ -16,8 +16,9 @@ public class InvoicePrinter implements Printable {
 
     private Connection connection;
     private List<Invoice> invoicesToPrint;
-    private static final String COMPANY_NAME = "Patisserie Andalous";
-    private static final String COMPANY_PHONE = "Wadie : 92 605 242 / 56 111 353";
+    private static ConfigManager configManager=ConfigManager.getInstance();
+    private static final String COMPANY_NAME = configManager.getCompanyName();
+    private static final String COMPANY_PHONE = "Phone :" +configManager.getPhoneNumber();
 
     // Using existing FactureItem class instead of InvoiceItem subclass
 

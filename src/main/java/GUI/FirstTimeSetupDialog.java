@@ -11,7 +11,7 @@ public class FirstTimeSetupDialog extends JDialog {
     private boolean setupCompleted = false;
 
     public FirstTimeSetupDialog(Frame parent) {
-        super(parent, "Configuration - System de Facturation", true);
+        super(parent, "Configuration - InvoMate", true);
         initializeComponents();
         setupLayout();
         setupEventHandlers();
