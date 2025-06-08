@@ -68,21 +68,20 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 ## 📂 Getting Started
 
 ### Build & Run
-📌 First-Time Configuration (Windows)
+📌 First-Time Configuration (Windows)  
 When the application is run for the first time on Windows, it will automatically generate:
 
-📁 Database file:
+📁 Database file:  
 C:\Users\YourUser\AppData\Roaming\YourDB.db
 
-⚙️ Configuration file:
-C:\Users\YourUser\AppData\Roaming\Project\config.properties
+⚙️ Configuration file:  
+C:\Users\YourUser\AppData\Roaming\Project\config.properties  
 
-These files store your company name, phone number, and local client/product data.
+-> These files store your company name, phone number, and local client/product data.  
 
-🛠️ Customization & Migration
-To change your company name or phone number, edit the config.properties file.
-
-To move your data to another computer, copy both the database file and the config file to the same paths on the new machine.
+🛠️ Customization & Migration  
+-> To change your company name or phone number, edit the config.properties file.  
+-> To move your data to another computer, copy both the database file and the config file to the same paths on the new machine.
 
 ```bash
 git clone https://github.com/Ruthless30/InvoMate.git
