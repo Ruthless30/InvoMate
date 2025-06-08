@@ -38,10 +38,30 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 ---
 
 ## 📸 Screenshots
+## 🖼️ First Time Configuration
 
+![First Time Configuration](src/main/images/first-time-config.PNG "First Time Configuration")
+## 🖼️ Home Preview
+
+![Home](src/main/images/home.PNG "Home")
+## 🖼️ Clients Preview
+
+![Clients Example](src/main/images/clients.PNG "Clients Example")
+## 🖼️ Products Preview
+
+![Products Example](src/main/images/products.PNG "Products")
+## 🖼️ Invoices Preview
+
+![Invoice Example](src/main/images/invoice.PNG "Invoice Example")
+## 🖼️ Invoice Items Preview
+
+![Invoice Items](src/main/images/invoice_list.PNG "Invoice Items")
 ## 🖼️ Invoice Preview
 
-![Invoice Example](src/main/images/invoice.png "Invoice Example")
+![Invoice Example](src/main/images/invoice.PNG "Invoice Example")
+## 🖼️ Report Preview
+
+![Report Preview](src/main/images/report.PNG "Report Preview")
 
 ---
 
