@@ -31,7 +31,7 @@ public class FirstTimeSetupDialog extends JDialog {
         setLayout(new BorderLayout());
 
         // Header
-        JLabel headerLabel = new JLabel("Welcome to your Project", SwingConstants.CENTER);
+        JLabel headerLabel = new JLabel("Welcome to InvoMate", SwingConstants.CENTER);
         headerLabel.setFont(new Font("Arial", Font.BOLD, 16));
         headerLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 20, 0));
         add(headerLabel, BorderLayout.NORTH);

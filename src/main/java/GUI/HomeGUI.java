@@ -15,7 +15,7 @@ public class HomeGUI extends JFrame {
     JPanel panel = new JPanel(new GridLayout(5, 1));
 
     public HomeGUI() {
-        setTitle("Home");
+        setTitle("InvoMate");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 250, 300);
         setLocationRelativeTo(null);
