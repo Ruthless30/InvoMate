@@ -41,7 +41,7 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 
 ## 🖼️ Invoice Preview
 
-![Invoice Example](images/invoice-preview.png "Invoice Example")
+![Invoice Example](src/main/images/invoice.png "Invoice Example")
 
 ---
 
