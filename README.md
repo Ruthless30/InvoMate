@@ -72,12 +72,13 @@ Generate a **planning report** that helps the business owner (e.g., a baker) pre
 When the application is run for the first time on Windows, it will automatically generate:
 
 📁 Database file:  
-C:\Users\YourUser\AppData\Roaming\YourDB.db
+C:\Users\YourUser\AppData\Roaming\YourCompanyName\YourCompanyName.db
 
 ⚙️ Configuration file:  
 C:\Users\YourUser\AppData\Roaming\Project\config.properties  
 
 -> These files store your company name, phone number, and local client/product data.  
+-> The invoices date is always tomorrow's date  
 
 🛠️ Customization & Migration  
 -> To change your company name or phone number, edit the config.properties file.  
